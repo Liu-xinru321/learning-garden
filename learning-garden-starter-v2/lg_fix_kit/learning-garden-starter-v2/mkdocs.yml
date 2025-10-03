@@ -1,0 +1,38 @@
+site_name: 芯如的学习花园 · BioComputing
+site_description: 深度学习 / 神经网络 / AI for Science 学习记录与研究原型
+site_author: Xinru
+repo_url: https://github.com/Liu-xinru321/learning-garden
+repo_name: Liu-xinru321/learning-garden
+theme:
+  name: material
+  language: zh
+  features:
+    - navigation.top
+    - navigation.sections
+    - navigation.indexes
+    - content.code.copy
+    - search.suggest
+    - search.highlight
+    - toc.integrate
+plugins:
+  - search
+  - mkdocs-jupyter
+nav:
+  - 首页: index.md
+  - 路线图: roadmap/
+  - 课程纲要: syllabus/
+  - 学习日志: learning-log/
+  - 笔记与卡片: notes/
+  - 项目: projects/
+markdown_extensions:
+  - admonition
+  - footnotes
+  - pymdownx.tasklist
+  - pymdownx.details
+  - pymdownx.superfences
+  - toc:
+      permalink: true
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/Liu-xinru321
