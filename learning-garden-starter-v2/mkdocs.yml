@@ -1,0 +1,50 @@
+site_name: Learning Garden
+site_description: 长期积累的深度学习与 AI for Science 学习笔记与项目记录
+site_author: Your Name
+repo_url: https://github.com/yourname/yourrepo
+repo_name: yourname/yourrepo
+theme:
+  name: material
+  language: zh
+  features:
+    - navigation.top
+    - navigation.sections
+    - navigation.indexes
+    - content.code.copy
+    - search.suggest
+    - search.highlight
+    - toc.integrate
+plugins:
+  - search
+  - mkdocs-jupyter
+nav:
+  - 首页: index.md
+  - 路线图:
+    - 30 天计划: roadmap/30-day-plan.md
+  - 课程纲要:
+    - MIT 6.S191: syllabus/6s191.md
+    - Karpathy ZtH: syllabus/karpathy-zth.md
+    - D2L: syllabus/d2l.md
+    - CS231n: syllabus/cs231n.md
+    - fast.ai: syllabus/fastai.md
+    - PyTorch 官方教程: syllabus/pytorch.md
+    - CS224N（选修）: syllabus/cs224n.md
+    - NYU DS-GA 1008（选修）: syllabus/nyu-dsga-1008.md
+  - 学习日志:
+    - 2025-10-03: learning-log/2025-10-03.md
+  - 笔记与卡片: 
+    - 目录: notes/index.md
+  - 项目: 
+    - 目录: projects/index.md
+markdown_extensions:
+  - admonition
+  - footnotes
+  - pymdownx.tasklist
+  - pymdownx.details
+  - pymdownx.superfences
+  - toc:
+      permalink: true
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/yourname
