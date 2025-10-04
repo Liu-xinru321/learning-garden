@@ -19,4 +19,7 @@
   4. webhook : runs the flow on reciving an HTTP request
   5. on form submission :  generate webforms in n8n and pass their respones to the workflow ( 填写体质表格 + 基础病史之后参与智能体输出 )
   6. when executed by another workflow ( 由别的工作流来呼叫本工作流 )
-  7. on chat message
+  7. on chat message: 对话开启
+
+  - 接下来链接执行节点
+    1. 
