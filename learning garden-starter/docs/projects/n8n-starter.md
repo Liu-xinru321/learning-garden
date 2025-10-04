@@ -21,5 +21,5 @@
   6. when executed by another workflow ( 由别的工作流来呼叫本工作流 )
   7. on chat message: 对话开启
 
-  - 接下来链接执行节点
-    1. 
+ - 接下来链接执行节点
+
